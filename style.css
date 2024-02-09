@@ -1,0 +1,47 @@
+
+    *{
+        padding: 0%;
+        margin: 0%;
+        box-sizing: border-box;
+       }
+    body{
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        text-align: center;
+        background-color: rgb(45, 45, 196);
+        align-content: center;
+        justify-content: center;
+    }
+    .box{
+        width: 300px;
+        height: 450px;
+        border: 2px ;
+        background-color:white;
+        border-radius: 15px;
+        padding: 15px;
+        margin-top: 100px;
+        object-fit: cover;
+    }
+    #name{
+        color:black;
+        font-weight: 700;
+        font-size: 25px;
+    }
+    button{
+        width: 100px;
+        border-radius: 10px;
+        background-color: brown;
+        color: white;
+        font-weight: 500;
+        cursor: pointer;height: 50px;
+
+    }
+    img{
+        border-radius: 8px;
+    }
+    h2{
+        color: red;
+        font-size: 45px;
+        font-weight: 600;
+    }
